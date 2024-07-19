@@ -244,6 +244,15 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* ESCH */
+.nav-link.active-tag {
+    color: #fff;
+    background-color: #BEB45A;
+    border-radius: 0;
+}
+/* ESCH */
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
