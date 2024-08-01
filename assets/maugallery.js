@@ -153,10 +153,12 @@
           index = i ;
         }
       });
+      index=(index-1)%imagesCollection.length; //ESCH
       next =
         imagesCollection[index] ||
         imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
+      // $(".lightboxImage").modal("toggle"); //ESCH моя строка вся эта копия 120
     },
     nextImage() {
       let activeImage = null;
@@ -192,6 +194,7 @@
           index = i;
         }
       });
+      index=(index+1)%imagesCollection.length; //ESCH
       next = imagesCollection[index] || imagesCollection[0];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },

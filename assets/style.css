@@ -86,6 +86,9 @@ body {
 	width: 60%;
 	/* font-size: 16px; */
 }
+#about-me h3 {
+	font-size: 1rem;
+}
 #about-me p {
 	width: 80%;
 	font-size: 14px;
@@ -148,7 +151,20 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: calc(1.375rem + 1.5vw); /* //ESCH */ 
+	/* font-weight: 500; */
+	display: block;
+    /* font-size: 2em; */
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+    /* font-weight: 500; */
+    line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -265,7 +281,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
