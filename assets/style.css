@@ -20,6 +20,11 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	display: flex;
+	flex-direction: column;
+}
+.top-header .name span{
+	font-size: 14px;
 }
 
 nav ul {
