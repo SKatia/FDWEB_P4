@@ -273,8 +273,10 @@ input[type="submit"] {
     background-color: #BEB45A;
     border-radius: 0;
 }
-.carousel-control-prev-icon .carousel-control-next-icon {
-	color: crimson;
+
+carousel-control-prev-icon, .carousel-control-next-icon {
+	/* color: crimson; */
+	background-color: #000;
 }
 
 /* ESCH */
